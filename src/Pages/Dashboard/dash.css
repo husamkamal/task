@@ -1,4 +1,4 @@
-.css-10d9dml-MuiTabs-indicator{
+/* .css-10d9dml-MuiTabs-indicator{
     display: none;
 }
 .css-nulah2-MuiTabs-root .MuiTabs-scrollButtons{
@@ -7,4 +7,11 @@
 .css-1cgx7kx-MuiTabs-scroller{
     max-height: 12rem !important;
     width: 10rem;
+} */
+.tabs div:nth-child(2) {
+    max-height: 12rem !important;
+    width: 10rem;
+}
+.tabs div:nth-child(2) span{
+    display: none;
 }

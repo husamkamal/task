@@ -60,7 +60,7 @@ export default function Dashboard() {
           justifyContent:'center',
           alignItems:'center'  
         }}
-  
+        className='tabs'
       >
         <Tab sx={{alignItems:'flex-start', color:'white !important', borderBottom:'1px solid #fff ', paddingLeft:'0 !important'}} label="Profile" {...a11yProps(0)} />
         <Tab sx={{alignItems:'flex-start', color:'white !important', borderBottom:'1px solid #fff ', paddingLeft:'0 !important'}}  label="Posts" {...a11yProps(1)} />
