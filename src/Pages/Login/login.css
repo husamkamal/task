@@ -4,6 +4,18 @@
   flex-direction: column;
   max-height:60vh;
   height: 60vh;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  position: absolute;
+  top: 5rem;
+  left: 30%;
+  box-shadow:10px 10px 10px #929292;
+  border: 15px;
+}
+.back{
+    background: transparent linear-gradient(205deg, var(--unnamed-color-2c65c8) 0%, var(--unnamed-color-702cc8) 100%) 0% 0% no-repeat padding-box;
+background: transparent linear-gradient(205deg, #2C65C8 0%, #702CC8 100%) 0% 0% no-repeat padding-box;
+width: 100vw;
+height: 50vh;
 }
 .header {
   display: flex;

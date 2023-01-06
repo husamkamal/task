@@ -7,7 +7,11 @@ import { Link } from 'react-router-dom';
 export default function Login() {
     
     return (
-    <Container className='container' >
+        <Box>
+        <Box className='back'>
+
+        </Box>
+    <Box className='container' >
       <Box className='header'>
         <Typography sx={{
             color:'#4A4A4A',
@@ -23,6 +27,7 @@ export default function Login() {
       })}
         
       </Box>
-    </Container>
+    </Box>
+    </Box>
   );
 }
